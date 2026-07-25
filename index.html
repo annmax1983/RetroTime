@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixel Retro Timer - Support</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+      background: #1e1e2e;
+      color: #cdd6f4;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .card {
+      background: #181825;
+      border: 1px solid #313244;
+      border-radius: 16px;
+      max-width: 480px;
+      width: 100%;
+      overflow: hidden;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    }
+    .header {
+      padding: 20px 28px 16px;
+      text-align: center;
+      border-bottom: 1px solid #313244;
+    }
+    .header h1 {
+      font-size: 20px;
+      margin-bottom: 4px;
+      background: linear-gradient(135deg, #4fc3f7, #a6e3a1);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .header p { color: #a6adc8; font-size: 12px; }
+    .body { padding: 16px 28px 20px; }
+    .body h2 { font-size: 14px; color: #a6e3a1; margin-bottom: 10px; }
+    .body ul { list-style: none; padding: 0; margin-bottom: 14px; }
+    .body li {
+      padding: 4px 0;
+      font-size: 13px;
+      color: #bac2de;
+    }
+    .body li::before { content: '✓ '; color: #a6e3a1; }
+    .thank { font-size: 13px; color: #a6adc8; line-height: 1.6; }
+    .heart { color: #f38ba8; }
+    .cta {
+      text-align: center;
+      padding: 16px 28px 20px;
+      border-top: 1px solid #313244;
+    }
+    .support-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 28px;
+      background: linear-gradient(135deg, #4fc3f7, #a6e3a1);
+      color: #1e1e2e;
+      border-radius: 8px;
+      font-size: 15px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .support-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 16px rgba(79,195,247,0.3);
+    }
+    .disclaimer { font-size: 11px; color: #585b70; margin-top: 10px; line-height: 1.5; }
+    .footer {
+      padding: 12px 28px;
+      text-align: center;
+      font-size: 11px;
+      color: #6c7086;
+      border-top: 1px solid #1e1e2e;
+    }
+    .footer a { color: #4fc3f7; text-decoration: none; }
+    .footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="header">
+      <h1>🕹️ Pixel Retro Timer</h1>
+      <p data-i18n="tagline"></p>
+    </div>
+    <div class="body">
+      <h2 data-i18n="featuresTitle"></h2>
+      <ul id="featureList"></ul>
+      <h2 data-i18n="thankTitle"></h2>
+      <div class="thank" id="thankText"></div>
+    </div>
+    <div class="cta">
+      <a class="support-btn" href="https://ko-fi.com/annmax?ref=retrotimer" target="_blank" rel="noopener">
+        <img src="./assets/coffee.png" alt="" width="24" height="18" style="vertical-align:middle"> <span data-i18n="btnText"></span>
+      </a>
+      <p class="disclaimer" data-i18n="disclaimer"></p>
+    </div>
+    <div class="footer">
+      <a href="https://github.com/annmax1983/RetroTime" target="_blank">GitHub</a>
+      &nbsp;·&nbsp;
+      <a href="privacy-policy.html" target="_blank" data-i18n="privacyPolicy">Privacy Policy</a>
+      &nbsp;·&nbsp; Copyright © 2026 Pixel Retro Timer
+    </div>
+  </div>
+
+  <script>
+    const I18N = {
+      zh: {
+        tagline: '极简悬浮计时器 · 数据仅本地存储 · 不上传不追踪',
+        featuresTitle: '✨ 功能特色',
+        features: [
+          '极简毛玻璃悬浮组件，深浅色自动跟随系统',
+          '秒表、倒计时、番茄钟三种计时模式',
+          '自定义提醒音效，内置3种可上传自己的音频',
+          '计时历史自动保存，随时查看专注记录',
+          '丝滑拖拽体验，自动贴边吸附，位置记忆'
+        ],
+        thankTitle: '💌 想对你说',
+        thank: '感谢你使用 Pixel Retro Timer。做这个工具是因为想要一个既好看又实用的悬浮计时器。如果它也帮到了你，请我喝杯咖啡 <span class="heart">☕</span> 会让我更有动力继续打磨它。',
+        btnText: '支持作者',
+        disclaimer: '赞助为自愿行为，不影响任何功能使用。',
+        privacyPolicy: '隐私条款'
+      },
+      en: {
+        tagline: 'Minimalist Floating Timer · Local-Only Storage · No Tracking',
+        featuresTitle: '✨ Features',
+        features: [
+          'Glassmorphism floating widget with auto dark/light theme',
+          'Stopwatch, Countdown, Pomodoro timer modes',
+          'Custom alert sounds with 3 built-in + upload your own',
+          'Timer history auto-save to track your focus sessions',
+          'Smooth drag with edge-snapping and position memory'
+        ],
+        thankTitle: '💌 A Note to You',
+        thank: 'Thank you for using Pixel Retro Timer. I built this tool because I wanted a timer that looks great and works smoothly. If it helps you, buying me a coffee would keep me motivated.',
+        btnText: 'Support the Developer',
+        disclaimer: 'Sponsorship is voluntary and does not affect any features.',
+        privacyPolicy: 'Privacy Policy'
+      },
+      ja: {
+        tagline: 'ミニマリストタイマー · ローカル保存のみ · 追跡なし',
+        featuresTitle: '✨ 機能',
+        features: [
+          'グラスモーフィズムウィジェット、ダーク/ライトテーマ自動切替',
+          'ストップウォッチ、カウントダウン、ポモドーロ',
+          'カスタムアラート音、3種内蔵＋アップロード対応',
+          'タイマー履歴の自動保存で集中記録を管理',
+          'スムーズなドラッグ＋エッジスナップ＋位置記憶'
+        ],
+        thankTitle: '💌 ご利用ありがとうございます',
+        thank: 'Pixel RetroTimerをご利用いただきありがとうございます。見た目も使い勝手も良いタイマーが欲しくて作りました。コーヒーを一杯おごっていただけると嬉しいです。',
+        btnText: '開発者を支援',
+        disclaimer: '支援は任意で機能に影響しません。',
+        privacyPolicy: 'プライバシーポリシー'
+      },
+      de: {
+        tagline: 'Minimalistischer Timer · Nur lokale Speicherung · Kein Tracking',
+        featuresTitle: '✨ Funktionen',
+        features: [
+          'Glassmorphism-Widget mit automatischem Dunkel/Licht-Thema',
+          'Stoppuhr, Countdown, Pomodoro-Modi',
+          'Benutzerdefinierte Alarmtöne, 3 integriert + eigene hochladen',
+          'Timer-Verlauf automatisch speichern',
+          'Sanftes Ziehen mit Kantenrastung und Positionsspeicher'
+        ],
+        thankTitle: '💌 Ein paar Worte an Sie',
+        thank: 'Vielen Dank, dass Sie Pixel Retro Timer nutzen. Ich wollte einen Timer, der gut aussieht und reibungslos funktioniert. Ein Kaffee würde mich sehr freuen.',
+        btnText: 'Entwickler unterstützen',
+        disclaimer: 'Spenden sind freiwillig und beeinflussen keine Funktionen.',
+        privacyPolicy: 'Datenschutz'
+      },
+      es: {
+        tagline: 'Temporizador minimalista · Solo almacenamiento local · Sin rastreo',
+        featuresTitle: '✨ Características',
+        features: [
+          'Widget glassmorphism con tema oscuro/claro automático',
+          'Cronómetro, cuenta regresiva, modos Pomodoro',
+          'Sonidos personalizados, 3 integrados + subir el tuyo',
+          'Historial de temporizadores con guardado automático',
+          'Arrastre suave con ajuste de borde y memoria de posición'
+        ],
+        thankTitle: '💌 Unas palabras para ti',
+        thank: 'Gracias por usar Pixel Retro Timer. Quería un temporizador que se viera genial y funcionara sin problemas. Un café me motivaría a seguir mejorándolo.',
+        btnText: 'Apoya al desarrollador',
+        disclaimer: 'La donación es voluntaria y no afecta funciones.',
+        privacyPolicy: 'Privacidad'
+      },
+      fr: {
+        tagline: 'Minuteur minimaliste · Stockage local uniquement · Aucun suivi',
+        featuresTitle: '✨ Fonctionnalités',
+        features: [
+          'Widget glassmorphism avec thème sombre/clair automatique',
+          'Chronomètre, compte à rebours, modes Pomodoro',
+          'Sons personnalisés, 3 intégrés + upload personnalisé',
+          'Historique des minuteurs avec sauvegarde automatique',
+          'Glisser fluide avec aimantation des bords et mémoire de position'
+        ],
+        thankTitle: '💌 Un petit mot pour vous',
+        thank: 'Merci d\'utiliser Pixel Retro Timer. Je voulais un minuteur qui soit beau et fonctionne parfaitement. Un café me ferait très plaisir.',
+        btnText: 'Soutenir le développeur',
+        disclaimer: 'Le don est volontaire et n\'affecte pas les fonctionnalités.',
+        privacyPolicy: 'Confidentialité'
+      }
+    };
+
+    function detectLang() {
+      const code = (navigator.language || 'en').split('-')[0].toLowerCase();
+      return I18N[code] ? code : 'en';
+    }
+
+    function applyLang(lang) {
+      const t = I18N[lang];
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (t[key]) el.textContent = t[key];
+      });
+      document.getElementById('featureList').innerHTML = t.features.map(f => `<li>${f}</li>`).join('');
+      document.getElementById('thankText').innerHTML = `<p>${t.thank}</p>`;
+      document.documentElement.lang = lang;
+    }
+
+    applyLang(detectLang());
+  </script>
+</body>
+</html>
