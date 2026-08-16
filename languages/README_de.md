@@ -1,11 +1,20 @@
-# Pixel Retro Timer
+# RetroTime — Schwebender Timer
 
 [English](../README.md) | [中文](README_zh.md) | [Español](README_es.md) | Deutsch | [日本語](README_ja.md) | [Français](README_fr.md)
 
-Retro-Schwebe-Timer-Erweiterung mit 4 Skins, dynamischen Effekten und Stoppuhr/Countdown/Pomodoro-Modi. fully offline, keine Datenerfassung.
-
-> Chromium-basiert · Manifest V3 · Kein Tracking · Nur offline · 4 Skins
+Minimalistischer Glasglas-Timer mit Stoppuhr, Countdown und Pomodoro. Vollständig offline.
 
 ---
 
-Vollständige Dokumentation finden Sie in der [Haupt-README](../README.md).
+Details finden Sie in der [Haupt-README](../README.md).
+
+## Kostenlos vs Premium
+
+| Plan | Funktionen |
+|------|------------|
+| **Kostenlos** | Stoppuhr, Countdown, Pomodoro, alle Töne, Transparenz, Ziehen, Sperren, Verlauf |
+| **⭐ Premium** | Eigene Schriftfarbe, eigene Hintergrundfarbe |
+
+Alle Timer-Funktionen sind für immer kostenlos. Eigene Farben erfordern eine VKT Premium-Lizenz.
+
+> Die Lizenzaktivierung ist **optional**. Die kostenlose Version funktioniert vollständig ohne Lizenz.

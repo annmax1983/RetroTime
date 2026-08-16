@@ -1,11 +1,20 @@
-# Pixel Retro Timer
+# RetroTime — Temporizador Flotante
 
 [English](../README.md) | [中文](README_zh.md) | Español | [Deutsch](README_de.md) | [日本語](README_ja.md) | [Français](README_fr.md)
 
-Extensión de temporizador flotante con estilo retro, 4 temas, efectos dinámicos y modos cronómetro/cuenta regresiva/pomodoro. fully offline, sin recopilación de datos.
-
-> Basado en Chromium · Manifest V3 · Sin rastreo · Solo offline · 4 temas
+Temporizador minimalista con cronómetro, cuenta regresiva y Pomodoro. Completamente offline.
 
 ---
 
-Consulte la [README principal](../README.md) para documentación completa.
+Consulta el [README principal](../README.md) para más detalles.
+
+## Gratis vs Premium
+
+| Plan | Funciones |
+|------|-----------|
+| **Gratis** | Cronómetro, cuenta regresiva, Pomodoro, todos los sonidos, opacidad, arrastre, bloqueo, historial |
+| **⭐ Premium** | Color de fuente personalizado, color de fondo personalizado |
+
+Todas las funciones de temporizador son gratis para siempre. Los colores personalizados requieren una licencia VKT Premium.
+
+> La activación de licencia es **opcional**. La versión gratuita funciona completamente sin licencia.

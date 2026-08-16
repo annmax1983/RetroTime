@@ -1,32 +1,128 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pixel Retro Timer - Privacy Policy</title>
+  <title>RetroTime — Privacy Policy</title>
   <style>
-    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;max-width:700px;margin:40px auto;padding:20px;color:#333;line-height:1.8;}
-    h1{color:#2e7d32;}h2{color:#2e7d32;margin-top:24px;}p{margin:12px 0;}ul{padding-left:24px;}li{margin:8px 0;}
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 700px; margin: 40px auto; padding: 20px; color: #333; line-height: 1.8; }
+    h1 { color: #2e7d32; }
+    h2 { color: #2e7d32; margin-top: 24px; }
+    p { margin: 12px 0; }
+    ul { padding-left: 24px; }
+    li { margin: 8px 0; }
+    .highlight { background: #f5f5f5; padding: 12px 16px; border-radius: 8px; margin: 12px 0; }
+    code { background: #f1f5f9; padding: 2px 6px; border-radius: 4px; font-size: 13px; }
+    a { color: #2e7d32; }
+    footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8eaed; text-align: center; font-size: 13px; color: #9aa0a6; }
   </style>
 </head>
 <body>
-  <h1>🕹️ Pixel Retro Timer - Privacy Policy</h1>
-  <p><em>Last updated: July 2026</em></p>
-  <h2>Data Collection</h2>
-  <p>Pixel Retro Timer <strong>does not collect, store, or transmit any user data</strong> to external servers.</p>
-  <h2>How It Works</h2>
-  <ul>
-    <li>All timer data is processed locally in the browser</li>
-    <li>Only stores skin preference and window position in <code>chrome.storage.local</code></li>
-    <li>No network requests, no external resources loaded</li>
-    <li>Sound effects are generated via Web Audio API (no audio files downloaded)</li>
-  </ul>
-  <h2>Permissions</h2>
-  <ul>
-    <li><strong>activeTab</strong>: Access current tab when user clicks the extension icon</li>
-    <li><strong>storage</strong>: Save skin preference, window position, and timer settings locally</li>
-  </ul>
-  <h2>Contact</h2>
-  <p>For privacy concerns, contact via <a href="https://github.com/annmax1983/RetroTime" target="_blank">GitHub project page</a>.</p>
+  <h1 id="title"></h1>
+  <p><em id="updated"></em></p>
+  <div class="highlight" id="highlight"></div>
+  <h2 id="h1"></h2><p id="p1"></p><ul id="l1"></ul>
+  <h2 id="h2"></h2><p id="p2"></p><ul id="l2"></ul><p id="p2note"></p>
+  <h2 id="h3"></h2><p id="p3"></p>
+  <h2 id="h4"></h2><p id="p4"></p>
+  <h2 id="h5"></h2><p id="p5"></p>
+  <footer><p id="footer"></p></footer>
+
+<script>
+const I18N = {
+  en: {
+    title: '🕹️ RetroTime — Privacy Policy',
+    updated: 'Last updated: August 2026',
+    highlight: '<strong>Short version:</strong> All free features work entirely offline — zero network requests. The only network communication is optional Premium license activation: when you enter a license key, a minimal device identifier is sent to the license server for verification. If you never activate a license, the extension never connects to the internet.',
+    h1: 'Data Collection', p1: 'RetroTime does <strong>not</strong> collect any personal data:', l1: ['Browsing history or URLs visited', 'Timer usage data or focus sessions', 'Cookies or tracking identifiers', 'Usage analytics or telemetry'],
+    h2: 'Permissions', p2: 'RetroTime requests minimal permissions:', l2: ['<strong>storage</strong> — Saves settings, position, and timer history locally'], p2note: 'License verification connects to <code>api.annmax1983.com</code> only when you activate a paid license. Free features make zero network requests.',
+    h3: 'Third-Party Services', p3: '<strong>License Verification (Premium):</strong> If you activate a premium license, RetroTime connects to a license verification server via <a href="https://creem.io" target="_blank" rel="noopener">Creem</a> (payment processor). The request includes: license key, device fingerprint ID, plugin identifier, and browser metadata. If you never activate a license, the extension makes zero network requests.',
+    h4: 'Data Storage', p4: 'Settings and timer history are stored in <code>chrome.storage.local</code>. License data is stored locally for offline grace period (7 days). All data is deleted when you uninstall the extension.',
+    h5: 'Contact', p5: 'If you have questions, please open an issue on <a href="https://github.com/annmax1983/RetroTime">GitHub</a>.',
+    footer: '© 2026 RetroTime. All rights reserved.'
+  },
+  'zh-CN': {
+    title: '🕹️ RetroTime — 隐私条款',
+    updated: '最后更新：2026 年 8 月',
+    highlight: '<strong>简要说明：</strong>所有免费功能完全离线工作——零网络请求。唯一的网络通信是可选的高级版许可证激活：当您输入许可证密钥时，会将最小化的设备标识符发送至许可证服务器进行验证。如果您从未激活许可证，扩展不会连接互联网。',
+    h1: '数据收集', p1: 'RetroTime <strong>不会</strong>收集任何个人数据：', l1: ['浏览历史或访问的网址', '计时器使用数据或专注记录', 'Cookie 或跟踪标识符', '使用分析或遥测数据'],
+    h2: '权限说明', p2: 'RetroTime 仅请求最低权限：', l2: ['<strong>activeTab</strong> — 仅在您点击扩展图标时授予访问权限', '<strong>storage</strong> — 本地保存设置、位置和计时历史'], p2note: '许可证验证仅在您激活付费许可证时连接 <code>api.annmax1983.com</code>。免费功能零网络请求。',
+    h3: '第三方服务', p3: '<strong>许可证验证（高级版）：</strong>如果您激活了高级版许可证，RetroTime 将通过 <a href="https://creem.io" target="_blank" rel="noopener">Creem</a>（支付处理商）连接到许可证验证服务器。请求包含：许可证密钥、设备指纹 ID、插件标识和浏览器元数据。如果您从未激活许可证，扩展不会发起任何网络请求。',
+    h4: '数据存储', p4: '设置和计时历史存储在 <code>chrome.storage.local</code> 中。许可证数据本地存储用于离线宽限期（7 天）。卸载扩展时所有数据自动删除。',
+    h5: '联系方式', p5: '如有疑问，请在 <a href="https://github.com/annmax1983/RetroTime">GitHub</a> 上提交 Issue。',
+    footer: '© 2026 RetroTime. 保留所有权利。'
+  },
+  ja: {
+    title: '🕹️ RetroTime — プライバシーポリシー',
+    updated: '最終更新：2026年8月',
+    highlight: '<strong>要約：</strong>すべての無料機能は完全オフラインで動作——ネットワークリクエストゼロ。唯一のネットワーク通信はオプションのプレミアムライセンス有効化です。ライセンスを有効化しない場合、拡張機能はインターネットに接続しません。',
+    h1: 'データ収集', p1: 'RetroTime は個人データを<strong>収集しません</strong>：', l1: ['閲覧履歴またはアクセスしたURL', 'タイマー使用データや集中セッション', 'Cookieまたは追跡識別子', '使用分析またはテレメトリ'],
+    h2: '権限', p2: 'RetroTime は最小限の権限のみ要求します：', l2: ['<strong>storage</strong> — 設定、位置、タイマー履歴をローカル保存'], p2note: 'ライセンス検証は有料ライセンス有効化時のみ <code>api.annmax1983.com</code> に接続。無料機能はネットワークリクエストゼロ。',
+    h3: 'サードパーティサービス', p3: '<strong>ライセンス検証（プレミアム）：</strong>プレミアムライセンスを有効化すると、<a href="https://creem.io" target="_blank" rel="noopener">Creem</a>（決済処理業者）を通じてライセンス検証サーバーに接続します。ライセンスを有効化しない場合、ネットワークリクエストは一切発生しません。',
+    h4: 'データ保存', p4: '設定とタイマー履歴は <code>chrome.storage.local</code> に保存されます。アンインストール時に全データが削除されます。',
+    h5: 'お問い合わせ', p5: 'ご質問は <a href="https://github.com/annmax1983/RetroTime">GitHub</a> で Issue を作成してください。',
+    footer: '© 2026 RetroTime. All rights reserved.'
+  },
+  de: {
+    title: '🕹️ RetroTime — Datenschutzrichtlinie',
+    updated: 'Letzte Aktualisierung: August 2026',
+    highlight: '<strong>Kurzfassung:</strong> Alle kostenlosen Funktionen arbeiten vollständig offline — keine Netzwerkanfragen. Ohne Lizenz verbindet sich die Erweiterung nie mit dem Internet.',
+    h1: 'Datenerfassung', p1: 'RetroTime erfasst <strong>keine</strong> personenbezogenen Daten:', l1: ['Browserverlauf oder besuchte URLs', 'Timer-Nutzungsdaten oder Fokussitzungen', 'Cookies oder Tracking-Kennungen', 'Nutzungsanalysen oder Telemetrie'],
+    h2: 'Berechtigungen', p2: 'RetroTime beantragt nur minimale Berechtigungen:', l2: ['<strong>storage</strong> — Speichert Einstellungen, Position und Verlauf lokal'], p2note: 'Lizenzverifizierung verbindet sich nur bei Aktivierung mit <code>api.annmax1983.com</code>. Kostenlose Funktionen haben keine Netzwerkanfragen.',
+    h3: 'Drittanbieterdienste', p3: '<strong>Lizenzverifizierung (Premium):</strong> Bei aktivierter Premium-Lizenz verbindet sich RetroTime über <a href="https://creem.io" target="_blank" rel="noopener">Creem</a> mit dem Lizenzserver. Ohne Lizenz keine Netzwerkanfragen.',
+    h4: 'Datenspeicherung', p4: 'Einstellungen und Verlauf werden in <code>chrome.storage.local</code> gespeichert. Bei Deinstallation werden alle Daten gelöscht.',
+    h5: 'Kontakt', p5: 'Bei Fragen erstellen Sie bitte ein Issue auf <a href="https://github.com/annmax1983/RetroTime">GitHub</a>.',
+    footer: '© 2026 RetroTime. Alle Rechte vorbehalten.'
+  },
+  es: {
+    title: '🕹️ RetroTime — Política de Privacidad',
+    updated: 'Última actualización: agosto de 2026',
+    highlight: '<strong>Resumen:</strong> Todas las funciones gratuitas funcionan completamente offline — cero solicitudes de red. Sin licencia, la extensión nunca se conecta a internet.',
+    h1: 'Recopilación de Datos', p1: 'RetroTime <strong>no</strong> recopila ningún dato personal:', l1: ['Historial de navegación o URLs visitadas', 'Datos de uso del temporizador', 'Cookies o identificadores de seguimiento', 'Analíticas de uso o telemetría'],
+    h2: 'Permisos', p2: 'RetroTime solicita permisos mínimos:', l2: ['<strong>storage</strong> — Guarda configuración, posición e historial localmente'], p2note: 'La verificación de licencia solo se conecta a <code>api.annmax1983.com</code> al activar una licencia de pago.',
+    h3: 'Servicios de Terceros', p3: '<strong>Verificación de licencia (Premium):</strong> Si activa una licencia premium, RetroTime se conecta al servidor de licencias vía <a href="https://creem.io" target="_blank" rel="noopener">Creem</a>. Sin licencia, no se realizan solicitudes de red.',
+    h4: 'Almacenamiento', p4: 'La configuración e historial se almacenan en <code>chrome.storage.local</code>. Al desinstalar, todos los datos se eliminan.',
+    h5: 'Contacto', p5: 'Si tiene preguntas, abra un issue en <a href="https://github.com/annmax1983/RetroTime">GitHub</a>.',
+    footer: '© 2026 RetroTime. Todos los derechos reservados.'
+  },
+  fr: {
+    title: '🕹️ RetroTime — Politique de Confidentialité',
+    updated: 'Dernière mise à jour : août 2026',
+    highlight: '<strong>Résumé :</strong> Toutes les fonctions gratuites fonctionnent entièrement hors ligne — zéro requête réseau. Sans licence, l\'extension ne se connecte jamais à internet.',
+    h1: 'Collecte de Données', p1: 'RetroTime ne collecte <strong>aucune</strong> donnée personnelle :', l1: ['Historique de navigation ou URLs visitées', 'Données d\'utilisation du minuteur', 'Cookies ou identifiants de suivi', 'Analyses d\'utilisation ou télémétrie'],
+    h2: 'Permissions', p2: 'RetroTime ne demande que des permissions minimales :', l2: ['<strong>storage</strong> — Stocke paramètres, position et historique localement'], p2note: 'La vérification de licence ne se connecte à <code>api.annmax1983.com</code> que lors de l\'activation d\'une licence payante.',
+    h3: 'Services Tiers', p3: '<strong>Vérification de licence (Premium) :</strong> Si vous activez une licence premium, RetroTime se connecte au serveur de licences via <a href="https://creem.io" target="_blank" rel="noopener">Creem</a>. Sans licence, aucune requête réseau.',
+    h4: 'Stockage', p4: 'Les paramètres et l\'historique sont stockés dans <code>chrome.storage.local</code>. À la désinstallation, toutes les données sont supprimées.',
+    h5: 'Contact', p5: 'Pour toute question, ouvrez un issue sur <a href="https://github.com/annmax1983/RetroTime">GitHub</a>.',
+    footer: '© 2026 RetroTime. Tous droits réservés.'
+  }
+};
+
+const ALIASES = { 'zh': 'zh-CN', 'zh-TW': 'zh-CN', 'es-ES': 'es', 'de-DE': 'de', 'fr-FR': 'fr', 'ja-JP': 'ja' };
+
+function detectLang() {
+  const raw = navigator.language || 'en';
+  const mapped = ALIASES[raw] || raw;
+  if (I18N[mapped]) return mapped;
+  const base = raw.split('-')[0].toLowerCase();
+  return I18N[base] ? base : 'en';
+}
+
+function apply(t) {
+  document.title = t.title.replace(/🕹️\s*/, '') + ' - RetroTime';
+  document.getElementById('title').textContent = t.title;
+  document.getElementById('updated').textContent = t.updated;
+  document.getElementById('highlight').innerHTML = t.highlight;
+  ['h1','p1','h2','p2','p2note','h3','p3','h4','p4','h5','p5','footer'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.innerHTML = t[id];
+  });
+  if (t.l1) document.getElementById('l1').innerHTML = t.l1.map(i => '<li>'+i+'</li>').join('');
+  if (t.l2) document.getElementById('l2').innerHTML = t.l2.map(i => '<li>'+i+'</li>').join('');
+  document.documentElement.lang = detectLang();
+}
+
+apply(I18N[detectLang()]);
+</script>
 </body>
 </html>

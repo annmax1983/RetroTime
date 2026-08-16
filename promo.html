@@ -9,18 +9,10 @@ body{width:1400px;height:560px;overflow:hidden;font-family:-apple-system,BlinkMa
 .tile{width:1400px;height:560px;background:linear-gradient(135deg,#1a1a2e 0%,#0d0221 100%);display:flex;align-items:center;padding:0 80px;position:relative;gap:60px;}
 .tile::before{content:'';position:absolute;top:-100px;right:-60px;width:350px;height:350px;border-radius:50%;background:#39ff14;opacity:0.04;}
 .tile::after{content:'';position:absolute;bottom:-80px;left:100px;width:250px;height:250px;border-radius:50%;background:#ff6ec7;opacity:0.04;}
-.left{flex-shrink:0;display:flex;gap:12px;}
-.skin-card{width:140px;height:200px;border-radius:12px;border:2px solid;padding:8px;display:flex;flex-direction:column;align-items:center;gap:6px;}
-.sc-pixel{background:#1a1a2e;border-color:#39ff14;}
-.sc-cream{background:#fff5f5;border-color:#f0c0b8;}
-.sc-neon{background:#0d0221;border-color:#ff6ec7;}
-.sc-film{background:#f5f0e8;border-color:#c8b8a8;}
-.skin-card .label{font-size:10px;opacity:0.6;letter-spacing:1px;}
-.skin-card .time{font-family:'Courier New',monospace;font-size:28px;font-weight:700;margin-top:auto;}
-.sc-pixel .label,.sc-pixel .time{color:#39ff14;}
-.sc-cream .label,.sc-cream .time{color:#d4726a;}
-.sc-neon .label,.sc-neon .time{color:#ff6ec7;}
-.sc-film .label,.sc-film .time{color:#5a4a3a;}
+.left{flex-shrink:0;display:flex;gap:16px;align-items:center;}
+.screenshot{border-radius:12px;box-shadow:0 8px 32px rgba(0,0,0,0.4);}
+.screenshot-popup{height:420px;}
+.screenshot-widget{height:220px;}
 .right{flex:1;max-width:600px;display:flex;flex-direction:column;gap:16px;}
 .right h1{font-size:42px;font-weight:700;line-height:1.15;}
 .right h1 .c1{color:#39ff14;}.right h1 .c2{color:#ff6ec7;}
@@ -38,28 +30,26 @@ body{width:1400px;height:560px;overflow:hidden;font-family:-apple-system,BlinkMa
 <body>
 <div class="tile">
   <div class="left">
-    <div class="skin-card sc-pixel"><span class="label">PIXEL</span><span class="time">25:00</span></div>
-    <div class="skin-card sc-cream"><span class="label">CREAM</span><span class="time">15:30</span></div>
-    <div class="skin-card sc-neon"><span class="label">NEON</span><span class="time">08:45</span></div>
-    <div class="skin-card sc-film"><span class="label">FILM</span><span class="time">50:00</span></div>
+    <img src="screenshot/popup.png" alt="RetroTime Popup" class="screenshot screenshot-popup">
+    <img src="screenshot/time.png" alt="RetroTime Widget" class="screenshot screenshot-widget">
   </div>
   <div class="right">
     <h1><span class="c1">Pixel Retro</span><br><span class="c2">Timer</span></h1>
-    <div class="tagline">4 skins · Dynamic effects · Offline-only · Zero data collection</div>
+    <div class="tagline">Custom colors · Glassmorphism · Offline-only · Zero data collection</div>
     <div class="badge-row">
       <span class="badge b1">⚡ Lightweight</span>
       <span class="badge b2">🏗️ Manifest V3</span>
       <span class="badge b3">🔒 No Tracking</span>
     </div>
     <div class="features">
-      <div class="feature"><div class="fi fi-1">🕹️</div>4 Retro Skins — Pixel, Cream, Neon, Film</div>
+      <div class="feature"><div class="fi fi-1">🎨</div>Custom font & background colors (Premium)</div>
       <div class="feature"><div class="fi fi-2">⏱️</div>Stopwatch · Countdown · Pomodoro</div>
-      <div class="feature"><div class="fi fi-3">✨</div>Dynamic skin-specific animations and effects</div>
+      <div class="feature"><div class="fi fi-3">✨</div>Auto dark/light theme with glassmorphism</div>
       <div class="feature"><div class="fi fi-4">🖱️</div>Smooth drag with edge-snap and position memory</div>
-      <div class="feature"><div class="fi fi-5">🔔</div>Offline sound via Web Audio API</div>
+      <div class="feature"><div class="fi fi-5">🔔</div>Custom alert sounds · Web Audio API
     </div>
   </div>
-  <div class="brand">Pixel Retro Timer v1.0</div>
+  <div class="brand">Pixel Retro Timer v1.1.1</div>
 </div>
 </body>
 </html>
