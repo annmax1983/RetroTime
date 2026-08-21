@@ -18,3 +18,10 @@ Details finden Sie in der [Haupt-README](../README.md).
 Alle Timer-Funktionen sind für immer kostenlos. Eigene Farben erfordern eine VKT Premium-Lizenz.
 
 > Die Lizenzaktivierung ist **optional**. Die kostenlose Version funktioniert vollständig ohne Lizenz.
+
+
+---
+
+## Hinweis zum Quellcode
+
+> ⚠️ **Dieses Repository veröffentlicht keinen Quellcode.** Es enthält nur Nutzerdokumentation, Versionshinweise und Support-Ressourcen. Die Erweiterung wird ausschließlich über den Chrome Web Store vertrieben. Es werden keine Offline-Installationspakete oder Quellcodes für Endbenutzer bereitgestellt.
