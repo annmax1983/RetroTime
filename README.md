@@ -16,13 +16,13 @@ Most timer extensions open in a separate tab or popup. RetroTime floats directly
 |-----------|--------|
 | ⏱️ **Triple Modes** | Stopwatch, custom countdown, Pomodoro (work+break cycle) |
 | 🖱️ **Drag & Snap** | Smooth drag with edge-snapping and position memory |
-| 🔔 **Multiple Sounds** | 3 built-in sounds (beep, chime, gentle) + upload your own |
+| 🔔 **Alerts & Sounds** | Desktop notifications, toolbar countdown badge, 3 built-in sounds (beep, chime, gentle) or upload your own |
 | 📊 **History Tracking** | Auto-saves completed timers to track focus sessions |
 | 🎚️ **Opacity Control** | 20%-100% transparency slider |
 | 🔒 **Lock & Minimize** | Lock position to prevent drag, minimize to title bar |
 | 🎨 **Custom Colors** | Change font color and background color (Premium) |
 | 🌍 **Multi-Language** | EN, ZH, JA, DE, ES, FR |
-| 🛡️ **Privacy First** | Only `storage` permission, fully offline |
+| 🛡️ **Privacy First** | No data collection; `storage` + `alarms` + `notifications` only |
 
 ---
 
@@ -36,7 +36,7 @@ Most timer extensions open in a separate tab or popup. RetroTime floats directly
 All timer features are free forever. **Custom Colors** (font color + background color) require a VKT Premium license — a one-time purchase that supports development.
 
 - 🛒 Get a license: `https://www.annmax1983.com/checkout.html?plugin=retrotime`
-- ⚙ Activate it: open the popup → click the **🔒** button → enter your license key.
+- ⚙ Activate it: open the popup → click the **⚙** button (top right) → enter your license key.
 
 > License activation is **optional**. The free tier works fully without it.
 
@@ -72,12 +72,14 @@ All timer features are free forever. **Custom Colors** (font color + background 
 ## Usage
 
 1. **Click the extension icon** to open settings
-2. **Select mode** — Stopwatch, Countdown, or Pomodoro
-3. **The timer widget** appears on the page — drag it anywhere
-4. **▶ Start / ⏸ Pause / ↺ Reset** — control buttons on the widget
-5. **⇄ Switch mode** — cycle through modes on the widget
-6. **🔒 Lock** — prevent accidental dragging
-7. **— Minimize** — collapse to title bar only
+2. **Enable the widget** with the toggle in the header (off by default on first install)
+3. **Select mode** — Stopwatch, Countdown, or Pomodoro
+4. **The timer widget** appears on the page — drag it anywhere
+5. **▶ Start / ⏸ Pause / ↺ Reset** — control buttons on the widget
+6. **⇄ Switch mode** — cycle through modes on the widget
+7. **🔒 Lock** — prevent accidental dragging
+8. **— Minimize** — collapse to title bar only
+9. **🔔 Desktop alerts** — system notification when time is up (works even when the browser is minimized); the toolbar icon shows remaining minutes
 
 ---
 
@@ -87,13 +89,15 @@ All timer features are free forever. **Custom Colors** (font color + background 
 |------|-------------|
 | ⏱ **Stopwatch** | Count up from 00:00, no time limit |
 | ⏳ **Countdown** | Set custom minutes (10/25/30/60 presets or custom), counts down to 00:00 |
-| 🍅 **Pomodoro** | Work phase (default 25min) → Break phase (default 5min), auto-cycles |
+| 🍅 **Pomodoro** | Custom work/break lengths (default 25min/5min), optional auto-continue, skip break |
 
 ---
 
 ## Privacy
 
 - **storage** — Saves settings, position, and history locally
+- **alarms** — Fires the timer completion exactly on time, even when no tab is visible
+- **notifications** — Shows the desktop notification when a timer finishes
 - **License (optional)** — Only if you activate a paid license: a device fingerprint + browser metadata is sent to `api.annmax1983.com` to activate/validate the license. This never includes your timer data or usage history.
 - No network requests for free features — all processing happens locally
 - Sound effects generated in-browser via Web Audio API
