@@ -98,7 +98,7 @@ All timer features are free forever. **Custom Colors** (font color + background 
 - **storage** — Saves settings, position, and history locally
 - **alarms** — Fires the timer completion exactly on time, even when no tab is visible
 - **notifications** — Shows the desktop notification when a timer finishes
-- **License (optional)** — Only if you activate a paid license: a device fingerprint + browser metadata is sent to `api.annmax1983.com` to activate/validate the license. This never includes your timer data or usage history.
+- **License (optional)** — Only if you activate a paid license: a random install identifier + browser metadata is sent to `api.annmax1983.com` to activate/validate the license. This never includes your timer data or usage history.
 - No network requests for free features — all processing happens locally
 - Sound effects generated in-browser via Web Audio API
 - [Privacy Policy](privacy-policy.html)

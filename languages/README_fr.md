@@ -98,7 +98,7 @@ Toutes les fonctionnalités de minuteur sont gratuites à vie. Les **Couleurs pe
 - **storage** — Sauvegarde les paramètres, la position et l'historique en local
 - **alarms** — Déclenche la fin du minuteur à l'heure exacte, même quand aucun onglet n'est visible
 - **notifications** — Affiche la notification de bureau quand un minuteur se termine
-- **Licence (optionnelle)** — Uniquement si vous activez une licence payante : une empreinte de l'appareil + des métadonnées du navigateur sont envoyées à `api.annmax1983.com` pour activer/valider la licence. Cela n'inclut jamais vos données de minuteur ni votre historique d'utilisation.
+- **Licence (optionnelle)** — Uniquement si vous activez une licence payante : la clé de licence et un identifiant d'installation aléatoire + des métadonnées du navigateur sont envoyées à `api.annmax1983.com` pour activer/valider la licence. Cela n'inclut jamais vos données de minuteur ni votre historique d'utilisation.
 - Pas de requêtes réseau pour les fonctionnalités gratuites — tout le traitement se fait en local
 - Les effets sonores sont générés dans le navigateur via le Web Audio API
 - [Politique de confidentialité](privacy-policy.html)

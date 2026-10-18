@@ -98,7 +98,7 @@ Todas las funcionalidades del temporizador son gratuitas para siempre. Los **Col
 - **storage** — Guarda configuración, posición e historial localmente
 - **alarms** — Dispara la finalización del temporizador puntualmente, aunque no haya ninguna pestaña visible
 - **notifications** — Muestra la notificación de escritorio cuando un temporizador finaliza
-- **Licencia (opcional)** — Solo si activas una licencia de pago: una huella de dispositivo + metadatos del navegador se envían a `api.annmax1983.com` para activar/validar la licencia. Esto nunca incluye tus datos de temporizador ni historial de uso.
+- **Licencia (opcional)** — Solo si activas una licencia de pago: la clave de licencia y un identificador de instalación aleatorio + metadatos del navegador se envían a `api.annmax1983.com` para activar/validar la licencia. Esto nunca incluye tus datos de temporizador ni historial de uso.
 - Sin solicitudes de red para funcionalidades gratuitas — todo el procesamiento ocurre localmente
 - Efectos de sonido generados en el navegador mediante Web Audio API
 - [Política de privacidad](privacy-policy.html)

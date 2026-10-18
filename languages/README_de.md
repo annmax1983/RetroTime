@@ -98,7 +98,7 @@ Alle Timer-Funktionen sind für immer kostenlos. **Eigene Farben** (Schriftfarbe
 - **storage** — Speichert Einstellungen, Position und Verlauf lokal
 - **alarms** — Löst den Timer-Abschluss pünktlich aus, auch wenn kein Tab sichtbar ist
 - **notifications** — Zeigt die Desktop-Benachrichtigung bei Timer-Ende
-- **Lizenz (optional)** — Nur bei Aktivierung einer kostenpflichtigen Lizenz: Ein Geräte-Fingerprint + Browser-Metadaten werden an `api.annmax1983.com` gesendet, um die Lizenz zu aktivieren/validieren. Dies enthält nie deine Timer-Daten oder Nutzungsverlauf.
+- **Lizenz (optional)** — Nur bei Aktivierung einer kostenpflichtigen Lizenz: Lizenzschlüssel und eine zufällige Installationskennung + Browser-Metadaten werden an `api.annmax1983.com` gesendet, um die Lizenz zu aktivieren/validieren. Dies enthält nie deine Timer-Daten oder Nutzungsverlauf.
 - Keine Netzwerk-Anfragen für kostenlose Funktionen — alles passiert lokal
 - Sound-Effekte werden im Browser via Web Audio API generiert
 - [Datenschutzerklärung](privacy-policy.html)
