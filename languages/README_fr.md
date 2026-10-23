@@ -45,7 +45,7 @@ Toutes les fonctionnalités de minuteur sont gratuites à vie. Les **Couleurs pe
 ## Aperçu
 
 <p align="center">
-  <img src="screenshot/promo.png" alt="Aperçu RetroTime" width="640">
+  <img src="../screenshots/promo.png" alt="Aperçu RetroTime" width="640">
 </p>
 
 ---
@@ -62,10 +62,12 @@ Toutes les fonctionnalités de minuteur sont gratuites à vie. Les **Couleurs pe
 
 ## Installation
 
-1. Ouvrez `chrome://extensions/` ou `edge://extensions/`
-2. Activez le **mode Développeur**
-3. Cliquez sur **Charger le package décompressé** et sélectionnez le dossier du projet
-4. Cliquez sur l'icône du minuteur dans votre barre d'outils
+| Store | Lien |
+|---|---|
+| Chrome Web Store | [Installer dans Chrome](https://chromewebstore.google.com/detail/cdboleaglibdjbogeofpcaodilmbljgp) |
+| Microsoft Edge Add-ons | [Installer dans Edge](https://microsoftedge.microsoft.com/addons/detail/fbpjlhjnggfpfeakomkllgljbpegajbd) |
+
+> Installez uniquement depuis les boutiques officielles ci-dessus — évitez les sites de téléchargement tiers.
 
 ---
 

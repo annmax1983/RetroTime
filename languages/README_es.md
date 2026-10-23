@@ -45,7 +45,7 @@ Todas las funcionalidades del temporizador son gratuitas para siempre. Los **Col
 ## Vista previa
 
 <p align="center">
-  <img src="screenshot/promo.png" alt="Vista previa de RetroTime" width="640">
+  <img src="../screenshots/promo.png" alt="Vista previa de RetroTime" width="640">
 </p>
 
 ---
@@ -62,10 +62,12 @@ Todas las funcionalidades del temporizador son gratuitas para siempre. Los **Col
 
 ## Instalación
 
-1. Abre `chrome://extensions/` o `edge://extensions/`
-2. Activa el **modo de desarrollador**
-3. Haz clic en **Cargar descomprimida** y selecciona la carpeta del proyecto
-4. Haz clic en el icono del temporizador en tu barra de herramientas
+| Tienda | Enlace |
+|---|---|
+| Chrome Web Store | [Instalar en Chrome](https://chromewebstore.google.com/detail/cdboleaglibdjbogeofpcaodilmbljgp) |
+| Complementos de Microsoft Edge | [Instalar en Edge](https://microsoftedge.microsoft.com/addons/detail/fbpjlhjnggfpfeakomkllgljbpegajbd) |
+
+> Instale solo desde las tiendas oficiales de arriba; evite sitios de descarga de terceros.
 
 ---
 

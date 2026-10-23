@@ -45,7 +45,7 @@ Alle Timer-Funktionen sind für immer kostenlos. **Eigene Farben** (Schriftfarbe
 ## Vorschau
 
 <p align="center">
-  <img src="screenshot/promo.png" alt="RetroTime Vorschau" width="640">
+  <img src="../screenshots/promo.png" alt="RetroTime Vorschau" width="640">
 </p>
 
 ---
@@ -62,10 +62,12 @@ Alle Timer-Funktionen sind für immer kostenlos. **Eigene Farben** (Schriftfarbe
 
 ## Installation
 
-1. Öffne `chrome://extensions/` oder `edge://extensions/`
-2. Aktiviere den **Entwicklermodus**
-3. Klicke auf **Entpackte Erweiterung laden** und wähle den Projektordner
-4. Klicke auf das Timer-Symbol in deiner Toolbar
+| Store | Link |
+|---|---|
+| Chrome Web Store | [In Chrome installieren](https://chromewebstore.google.com/detail/cdboleaglibdjbogeofpcaodilmbljgp) |
+| Microsoft Edge Add-ons | [In Edge installieren](https://microsoftedge.microsoft.com/addons/detail/fbpjlhjnggfpfeakomkllgljbpegajbd) |
+
+> Installieren Sie nur über die offiziellen Stores oben – meiden Sie Download-Seiten Dritter.
 
 ---
 

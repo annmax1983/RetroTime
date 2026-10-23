@@ -45,7 +45,7 @@
 ## プレビュー
 
 <p align="center">
-  <img src="screenshot/promo.png" alt="RetroTime Preview" width="640">
+  <img src="../screenshots/promo.png" alt="RetroTime Preview" width="640">
 </p>
 
 ---
@@ -62,10 +62,12 @@
 
 ## インストール
 
-1. `chrome://extensions/`または`edge://extensions/`を開きます
-2. **デベロッパーモード**を有効にします
-3. **パッケージ化されていない拡張機能を読み込む**をクリックし、プロジェクトフォルダを選択します
-4. ツールバーのタイマーアイコンをクリックします
+| ストア | リンク |
+|---|---|
+| Chrome ウェブストア | [Chrome に追加](https://chromewebstore.google.com/detail/cdboleaglibdjbogeofpcaodilmbljgp) |
+| Microsoft Edge アドオン | [Edge に追加](https://microsoftedge.microsoft.com/addons/detail/fbpjlhjnggfpfeakomkllgljbpegajbd) |
+
+> 上記の公式ストアからのみインストールしてください。第三者サイトの利用は避けてください。
 
 ---
 

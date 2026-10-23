@@ -45,7 +45,7 @@ All timer features are free forever. **Custom Colors** (font color + background 
 ## Preview
 
 <p align="center">
-  <img src="screenshot/promo.png" alt="RetroTime Preview" width="640">
+  <img src="screenshots/promo.png" alt="RetroTime Preview" width="640">
 </p>
 
 ---
@@ -62,10 +62,12 @@ All timer features are free forever. **Custom Colors** (font color + background 
 
 ## Installation
 
-1. Open `chrome://extensions/` or `edge://extensions/`
-2. Enable **Developer mode**
-3. Click **Load unpacked** and select the project folder
-4. Click the timer icon in your toolbar
+| Store | Link |
+|---|---|
+| Chrome Web Store | [Install for Chrome](https://chromewebstore.google.com/detail/cdboleaglibdjbogeofpcaodilmbljgp) |
+| Microsoft Edge Add-ons | [Install for Edge](https://microsoftedge.microsoft.com/addons/detail/fbpjlhjnggfpfeakomkllgljbpegajbd) |
+
+> Install only from the official stores above — avoid third-party download sites.
 
 ---
 

@@ -10,6 +10,16 @@ A minimalist glassmorphism floating timer widget with stopwatch, countdown, and 
 
 See the [main README](../README.md) for full documentation.
 
+## Installation
+
+| Store | Link |
+|---|---|
+| Chrome Web Store | [Install for Chrome](https://chromewebstore.google.com/detail/cdboleaglibdjbogeofpcaodilmbljgp) |
+| Microsoft Edge Add-ons | [Install for Edge](https://microsoftedge.microsoft.com/addons/detail/fbpjlhjnggfpfeakomkllgljbpegajbd) |
+
+> Install only from the official stores above — avoid third-party download sites.
+
+
 ## Free vs Premium
 
 | Plan | Features |

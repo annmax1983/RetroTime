@@ -45,7 +45,7 @@
 ## 预览
 
 <p align="center">
-  <img src="../screenshot/promo.png" alt="RetroTime 预览" width="640">
+  <img src="../screenshots/promo.png" alt="RetroTime 预览" width="640">
 </p>
 
 ---
@@ -60,12 +60,14 @@
 
 ---
 
-## 安装方法
+## 安装
 
-1. 打开 `chrome://extensions/` 或 `edge://extensions/`
-2. 启用**开发者模式**
-3. 点击**加载已解压的扩展程序**，选择项目文件夹
-4. 点击工具栏中的计时器图标
+| 商店 | 链接 |
+|---|---|
+| Chrome 应用商店 | [在 Chrome 中安装](https://chromewebstore.google.com/detail/cdboleaglibdjbogeofpcaodilmbljgp) |
+| Microsoft Edge 加载项 | [在 Edge 中安装](https://microsoftedge.microsoft.com/addons/detail/fbpjlhjnggfpfeakomkllgljbpegajbd) |
+
+> 请只通过上方官方商店安装，避免使用第三方下载站。
 
 ---
 
