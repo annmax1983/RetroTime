@@ -4,7 +4,7 @@
 
 极简毛玻璃悬浮计时器，支持秒表、倒计时和番茄钟模式。完全离线，零数据收集。
 
-> 基于 Chromium · Manifest V3 · 无追踪 · 纯离线 · 可自定义颜色
+> Chrome / Edge / Firefox · Manifest V3 · 无追踪 · 纯离线 · 可自定义颜色
 
 ---
 
@@ -56,7 +56,10 @@
 |--------|------|
 | Google Chrome | ✅ 完全支持 |
 | Microsoft Edge | ✅ 完全支持 |
+| Mozilla Firefox | ✅ 完全支持 |
 | 其他 Chromium 内核浏览器 | ✅ 应该可以 |
+
+> **Firefox 说明：** 其余功能与 Chrome / Edge 一致。
 
 ---
 
@@ -66,6 +69,7 @@
 |---|---|
 | Chrome 应用商店 | [在 Chrome 中安装](https://chromewebstore.google.com/detail/cdboleaglibdjbogeofpcaodilmbljgp) |
 | Microsoft Edge 加载项 | [在 Edge 中安装](https://microsoftedge.microsoft.com/addons/detail/fbpjlhjnggfpfeakomkllgljbpegajbd) |
+| Firefox 附加组件（AMO） | 🔜 审核中，上架后补充链接 |
 
 > 请只通过上方官方商店安装，避免使用第三方下载站。
 
@@ -99,7 +103,7 @@
 
 ## 源码说明
 
-> ⚠️ **此处不发布源码。** 本仓库仅提供使用说明、更新日志和留言支持服务。扩展程序仅通过 Chrome Web Store 分发，不提供离线安装包或终端用户源代码。
+> ⚠️ **此处不发布源码。** 本仓库仅提供使用说明、更新日志和留言支持服务。扩展程序仅通过 Chrome Web Store、Microsoft Edge Add-ons 与 Firefox 附加组件（AMO） 分发，不提供离线安装包或终端用户源代码。
 
 ---
 

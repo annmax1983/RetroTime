@@ -4,7 +4,7 @@
 
 Ein minimalistisches Glassmorphism-Timer-Widget mit Stoppuhr, Countdown und Pomodoro-Modus. Vollständig offline, null Datensammlung.
 
-> Chromium-basiert · Manifest V3 · Kein Tracking · Nur offline · Anpassbare Farben
+> Chrome / Edge / Firefox · Manifest V3 · Kein Tracking · Nur offline · Anpassbare Farben
 
 ---
 
@@ -56,7 +56,10 @@ Alle Timer-Funktionen sind für immer kostenlos. **Eigene Farben** (Schriftfarbe
 |---------|--------|
 | Google Chrome | ✅ Vollständig unterstützt |
 | Microsoft Edge | ✅ Vollständig unterstützt |
+| Mozilla Firefox | ✅ Vollständig unterstützt |
 | Andere Chromium-basierte Browser | ✅ Sollte funktionieren |
+
+> **Firefox-Hinweis:** Die übrigen Funktionen verhalten sich wie unter Chrome / Edge.
 
 ---
 
@@ -66,6 +69,7 @@ Alle Timer-Funktionen sind für immer kostenlos. **Eigene Farben** (Schriftfarbe
 |---|---|
 | Chrome Web Store | [In Chrome installieren](https://chromewebstore.google.com/detail/cdboleaglibdjbogeofpcaodilmbljgp) |
 | Microsoft Edge Add-ons | [In Edge installieren](https://microsoftedge.microsoft.com/addons/detail/fbpjlhjnggfpfeakomkllgljbpegajbd) |
+| Firefox-Add-ons (AMO) | 🔜 In Prüfung – Link folgt nach der Freigabe |
 
 > Installieren Sie nur über die offiziellen Stores oben – meiden Sie Download-Seiten Dritter.
 
@@ -115,7 +119,7 @@ Diese Erweiterung bietet ein lokales schwebendes Timer-Overlay zur Bequemlichkei
 
 ## Quellcode-Hinweis
 
-> ⚠️ **Dieses Repository veröffentlicht keinen Quellcode.** Es enthält nur Nutzerdokumentation, Versionshinweise und Support-Ressourcen. Die Erweiterung wird ausschließlich über den Chrome Web Store vertrieben. Es werden keine Offline-Installationspakete oder Endbenutzer-Quellcodes bereitgestellt.
+> ⚠️ **Dieses Repository veröffentlicht keinen Quellcode.** Es enthält nur Nutzerdokumentation, Versionshinweise und Support-Ressourcen. Die Erweiterung wird ausschließlich über den Chrome Web Store, Microsoft Edge Add-ons und Firefox-Add-ons (AMO) vertrieben. Es werden keine Offline-Installationspakete oder Endbenutzer-Quellcodes bereitgestellt.
 
 ---
 

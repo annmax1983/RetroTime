@@ -4,7 +4,7 @@
 
 ストップウォッチ、カウントダウン、ポモドーロモードを備えたミニマルなグラスモーフィズムフローティングタイマーウィジェットです。完全オフライン、データ収集ゼロ。
 
-> Chromium系ブラウザ対応 · Manifest V3 · トラッキングなし · オフラインのみ · カスタムカラー対応
+> Chrome / Edge / Firefox · Manifest V3 · トラッキングなし · オフラインのみ · カスタムカラー対応
 
 ---
 
@@ -56,7 +56,10 @@
 |---------|--------|
 | Google Chrome | ✅ 完全対応 |
 | Microsoft Edge | ✅ 完全対応 |
+| Mozilla Firefox | ✅ 完全対応 |
 | その他のChromium系ブラウザ | ✅ 動作するはずです |
+
+> **Firefox について：** その他の機能は Chrome / Edge と同じです。
 
 ---
 
@@ -66,6 +69,7 @@
 |---|---|
 | Chrome ウェブストア | [Chrome に追加](https://chromewebstore.google.com/detail/cdboleaglibdjbogeofpcaodilmbljgp) |
 | Microsoft Edge アドオン | [Edge に追加](https://microsoftedge.microsoft.com/addons/detail/fbpjlhjnggfpfeakomkllgljbpegajbd) |
+| Firefox アドオン（AMO） | 🔜 審査中 — 公開後にリンクを追加します |
 
 > 上記の公式ストアからのみインストールしてください。第三者サイトの利用は避けてください。
 
@@ -115,7 +119,7 @@
 
 ## ソースコードに関する注意
 
-> ⚠️ **このリポジトリにはソースコードは公開されていません。** 使用ドキュメント、リリースノート、サポートリソースのみを含みます。拡張機能はChrome Web Storeを通じてのみ配布されます。オフラインインストールパッケージやエンドユーザー向けソースコードは提供されません。
+> ⚠️ **このリポジトリにはソースコードは公開されていません。** 使用ドキュメント、リリースノート、サポートリソースのみを含みます。拡張機能はChrome Web Store、Microsoft Edgeアドオン、Firefoxアドオン（AMO）を通じてのみ配布されます。オフラインインストールパッケージやエンドユーザー向けソースコードは提供されません。
 
 ---
 

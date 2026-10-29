@@ -4,7 +4,7 @@
 
 Un widget minimalista de temporizador flotante con efecto glassmorphism y modos de cronómetro, cuenta atrás y Pomodoro. Completamente sin conexión, cero recopilación de datos.
 
-> Basada en Chromium · Manifest V3 · Sin rastreo · Solo sin conexión · Colores personalizables
+> Chrome / Edge / Firefox · Manifest V3 · Sin rastreo · Solo sin conexión · Colores personalizables
 
 ---
 
@@ -56,7 +56,10 @@ Todas las funcionalidades del temporizador son gratuitas para siempre. Los **Col
 |---------|--------|
 | Google Chrome | ✅ Totalmente compatible |
 | Microsoft Edge | ✅ Totalmente compatible |
+| Mozilla Firefox | ✅ Totalmente compatible |
 | Otros navegadores basados en Chromium | ✅ Debería funcionar |
+
+> **Nota sobre Firefox:** El resto de funciones se comporta igual que en Chrome / Edge.
 
 ---
 
@@ -66,6 +69,7 @@ Todas las funcionalidades del temporizador son gratuitas para siempre. Los **Col
 |---|---|
 | Chrome Web Store | [Instalar en Chrome](https://chromewebstore.google.com/detail/cdboleaglibdjbogeofpcaodilmbljgp) |
 | Complementos de Microsoft Edge | [Instalar en Edge](https://microsoftedge.microsoft.com/addons/detail/fbpjlhjnggfpfeakomkllgljbpegajbd) |
+| Complementos de Firefox (AMO) | 🔜 En revisión: el enlace se añadirá al publicarse |
 
 > Instale solo desde las tiendas oficiales de arriba; evite sitios de descarga de terceros.
 
@@ -115,7 +119,7 @@ Esta extensión proporciona una superposición local de temporizador flotante pa
 
 ## Aviso sobre el código fuente
 
-> ⚠️ **Este repositorio no publica código fuente.** Contiene únicamente documentación de uso, notas de lanzamiento y recursos de soporte. La extensión se distribuye exclusivamente a través de Chrome Web Store. No se proporcionan paquetes de instalación sin conexión ni código fuente para usuarios finales.
+> ⚠️ **Este repositorio no publica código fuente.** Contiene únicamente documentación de uso, notas de lanzamiento y recursos de soporte. La extensión se distribuye exclusivamente a través de Chrome Web Store, Microsoft Edge Add-ons y Firefox Add-ons (AMO). No se proporcionan paquetes de instalación sin conexión ni código fuente para usuarios finales.
 
 ---
 

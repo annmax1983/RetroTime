@@ -4,7 +4,7 @@
 
 Un widget minuteur flottant minimalist en glassmorphism avec modes chronomètre, compte à rebours et Pomodoro. Entièrement hors ligne, zéro collecte de données.
 
-> Chromium · Manifest V3 · Aucun suivi · Hors ligne uniquement · Couleurs personnalisables
+> Chrome / Edge / Firefox · Manifest V3 · Aucun suivi · Hors ligne uniquement · Couleurs personnalisables
 
 ---
 
@@ -56,7 +56,10 @@ Toutes les fonctionnalités de minuteur sont gratuites à vie. Les **Couleurs pe
 |---------|--------|
 | Google Chrome | ✅ Entièrement pris en charge |
 | Microsoft Edge | ✅ Entièrement pris en charge |
+| Mozilla Firefox | ✅ Entièrement pris en charge |
 | Autres navigateurs basés sur Chromium | ✅ Devrait fonctionner |
+
+> **Note Firefox :** Le reste des fonctions se comporte comme sous Chrome / Edge.
 
 ---
 
@@ -66,6 +69,7 @@ Toutes les fonctionnalités de minuteur sont gratuites à vie. Les **Couleurs pe
 |---|---|
 | Chrome Web Store | [Installer dans Chrome](https://chromewebstore.google.com/detail/cdboleaglibdjbogeofpcaodilmbljgp) |
 | Microsoft Edge Add-ons | [Installer dans Edge](https://microsoftedge.microsoft.com/addons/detail/fbpjlhjnggfpfeakomkllgljbpegajbd) |
+| Modules complémentaires Firefox (AMO) | 🔜 En cours d’examen — le lien sera ajouté après publication |
 
 > Installez uniquement depuis les boutiques officielles ci-dessus — évitez les sites de téléchargement tiers.
 
@@ -115,7 +119,7 @@ Cette extension fournit un overlay de minuteur flottant local pour la commodité
 
 ## Avis sur le code source
 
-> ⚠️ **Ce dépôt ne publie pas le code source.** Il contient uniquement la documentation d'utilisation, les notes de version et les ressources d'assistance. L'extension est distribuée exclusivement via le Chrome Web Store. Aucun package d'installation hors ligne ni code source destiné aux utilisateurs finaux n'est fourni.
+> ⚠️ **Ce dépôt ne publie pas le code source.** Il contient uniquement la documentation d'utilisation, les notes de version et les ressources d'assistance. L'extension est distribuée exclusivement via le Chrome Web Store, Microsoft Edge Add-ons et Firefox Add-ons (AMO). Aucun package d'installation hors ligne ni code source destiné aux utilisateurs finaux n'est fourni.
 
 ---
 

@@ -4,7 +4,7 @@
 
 A minimalist glassmorphism floating timer widget with stopwatch, countdown, and Pomodoro modes. Fully offline, zero data collection.
 
-> Chromium-based · Manifest V3 · No tracking · Offline-only · Customizable Colors
+> Chrome · Edge · Firefox · Manifest V3 · No tracking · Offline-only · Customizable Colors
 
 ---
 
@@ -52,11 +52,14 @@ All timer features are free forever. **Custom Colors** (font color + background 
 
 ## Supported Browsers
 
-| Browser | Status |
-|---------|--------|
-| Google Chrome | ✅ Fully supported |
-| Microsoft Edge | ✅ Fully supported |
-| Other Chromium-based browsers | ✅ Should work |
+| Browser | Status | Notes |
+|---------|--------|-------|
+| Google Chrome | ✅ Fully supported | Manifest V3 |
+| Microsoft Edge | ✅ Fully supported | Manifest V3 |
+| Mozilla Firefox | ✅ Fully supported | Manifest V3, Firefox 140+ (desktop) |
+| Other Chromium-based browsers | ✅ Should work | Manifest V3 |
+
+> **Firefox note:** the floating widget, drag & snap, all three modes, sounds, badge countdown, desktop notifications, history and Premium colours work the same way. The extension asks only for `storage`, `alarms`, `notifications`, `<all_urls>` (to draw the widget on pages) and the licence host.
 
 ---
 
@@ -66,6 +69,7 @@ All timer features are free forever. **Custom Colors** (font color + background 
 |---|---|
 | Chrome Web Store | [Install for Chrome](https://chromewebstore.google.com/detail/cdboleaglibdjbogeofpcaodilmbljgp) |
 | Microsoft Edge Add-ons | [Install for Edge](https://microsoftedge.microsoft.com/addons/detail/fbpjlhjnggfpfeakomkllgljbpegajbd) |
+| Firefox Add-ons (AMO) | 🔜 Under review — link will be added once the listing is live |
 
 > Install only from the official stores above — avoid third-party download sites.
 
@@ -115,7 +119,7 @@ This extension provides a local floating timer overlay for user convenience. It 
 
 ## Source Code Notice
 
-> ⚠️ **This repository does not publish source code.** It contains only usage documentation, release notes, and support resources. The extension is distributed exclusively through the Chrome Web Store. No offline installation packages or end-user source code are provided.
+> ⚠️ **This repository does not publish source code.** It contains only usage documentation, release notes, and support resources. The extension is distributed exclusively through the Chrome Web Store, Microsoft Edge Add-ons and Firefox Add-ons (AMO). No offline installation packages or end-user source code are provided.
 
 ---
 
