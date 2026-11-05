@@ -29,7 +29,7 @@ See the [main README](../README.md) for full documentation.
 |---|---|
 | Chrome Web Store | [Install for Chrome](https://chromewebstore.google.com/detail/cdboleaglibdjbogeofpcaodilmbljgp) |
 | Microsoft Edge Add-ons | [Install for Edge](https://microsoftedge.microsoft.com/addons/detail/fbpjlhjnggfpfeakomkllgljbpegajbd) |
-| Firefox Add-ons (AMO) | 🔜 Under review — link will be added once the listing is live |
+| Firefox Add-ons (AMO) | [Install for Firefox](https://addons.mozilla.org/firefox/addon/pixel-retro-timer/) |
 
 > Install only from the official stores above — avoid third-party download sites.
 
@@ -43,3 +43,13 @@ See the [main README](../README.md) for full documentation.
 All timer features are free forever. Custom Colors require a VKT Premium license.
 
 > License activation is **optional**. The free tier works fully without it.
+
+---
+
+## Links
+
+- **Official website:** https://annmax1983.com/
+- **This extension:** https://annmax1983.com/extensions/retrotime
+- **Privacy policy:** https://annmax1983.com/privacy
+- **Contact:** support@annmax1983.com
+- **☕ Support this project (Ko-fi):** https://ko-fi.com/annmax?ref=retrotime

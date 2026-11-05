@@ -35,7 +35,7 @@ La mayoría de extensiones de temporizador se abren en una pestaña o popup apar
 
 Todas las funcionalidades del temporizador son gratuitas para siempre. Los **Colores personalizados** (color de fuente + color de fondo) requieren una licencia VKT Premium — una compra única que apoya el desarrollo.
 
-- 🛒 Obtener licencia: `https://www.annmax1983.com/checkout.html?plugin=retrotime`
+- 🛒 Obtener licencia: `https://annmax1983.com/checkout?plugin=retrotime`
 - ⚙ Activarla: abre el popup → haz clic en el botón **⚙** (arriba a la derecha) → introduce tu clave de licencia.
 
 > La activación de licencia es **opcional**. El nivel gratuito funciona completamente sin ella.
@@ -69,7 +69,7 @@ Todas las funcionalidades del temporizador son gratuitas para siempre. Los **Col
 |---|---|
 | Chrome Web Store | [Instalar en Chrome](https://chromewebstore.google.com/detail/cdboleaglibdjbogeofpcaodilmbljgp) |
 | Complementos de Microsoft Edge | [Instalar en Edge](https://microsoftedge.microsoft.com/addons/detail/fbpjlhjnggfpfeakomkllgljbpegajbd) |
-| Complementos de Firefox (AMO) | 🔜 En revisión: el enlace se añadirá al publicarse |
+| Complementos de Firefox (AMO) | [Instalar para Firefox](https://addons.mozilla.org/firefox/addon/pixel-retro-timer/) |
 
 > Instale solo desde las tiendas oficiales de arriba; evite sitios de descarga de terceros.
 
@@ -126,3 +126,13 @@ Esta extensión proporciona una superposición local de temporizador flotante pa
 ## Licencia
 
 Copyright © 2026 RetroTime. Todos los derechos reservados.
+
+---
+
+## Enlaces
+
+- **Sitio oficial:** https://annmax1983.com/
+- **Esta extensión:** https://annmax1983.com/extensions/retrotime
+- **Privacidad:** https://annmax1983.com/privacy
+- **Contacto:** support@annmax1983.com
+- **☕ Apoya el proyecto (Ko-fi):** https://ko-fi.com/annmax?ref=retrotime

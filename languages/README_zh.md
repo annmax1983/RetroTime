@@ -35,7 +35,7 @@
 
 所有计时功能永久免费。**自定义颜色**（字体+背景）需要 VKT 高级版许可证。
 
-- 🛒 获取许可证：`https://www.annmax1983.com/checkout.html?plugin=retrotime`
+- 🛒 获取许可证：`https://annmax1983.com/checkout?plugin=retrotime`
 - ⚙ 激活：打开弹窗 → 点击右上角 **⚙** 按钮 → 输入许可证密钥
 
 > 许可证激活是**可选的**。免费版无需任何账户或许可证即可正常使用。
@@ -69,7 +69,7 @@
 |---|---|
 | Chrome 应用商店 | [在 Chrome 中安装](https://chromewebstore.google.com/detail/cdboleaglibdjbogeofpcaodilmbljgp) |
 | Microsoft Edge 加载项 | [在 Edge 中安装](https://microsoftedge.microsoft.com/addons/detail/fbpjlhjnggfpfeakomkllgljbpegajbd) |
-| Firefox 附加组件（AMO） | 🔜 审核中，上架后补充链接 |
+| Firefox 附加组件（AMO） | [安装 Firefox 版](https://addons.mozilla.org/firefox/addon/pixel-retro-timer/) |
 
 > 请只通过上方官方商店安装，避免使用第三方下载站。
 
@@ -110,3 +110,13 @@
 ## 许可证
 
 Copyright © 2026 RetroTime. 保留所有权利。
+
+---
+
+## 链接
+
+- **官方网站:** https://annmax1983.com/
+- **本插件:** https://annmax1983.com/extensions/retrotime
+- **隐私政策:** https://annmax1983.com/privacy
+- **联系:** support@annmax1983.com
+- **☕ 支持这个项目（Ko-fi）:** https://ko-fi.com/annmax?ref=retrotime

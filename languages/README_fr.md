@@ -35,7 +35,7 @@ La plupart des extensions de minuteur s'ouvrent dans un onglet ou un popup sépa
 
 Toutes les fonctionnalités de minuteur sont gratuites à vie. Les **Couleurs personnalisables** (couleur du texte + couleur de fond) nécessitent une licence VKT Premium — un achat unique qui soutient le développement.
 
-- 🛒 Obtenir une licence : `https://www.annmax1983.com/checkout.html?plugin=retrotime`
+- 🛒 Obtenir une licence : `https://annmax1983.com/checkout?plugin=retrotime`
 - ⚙ L'activer : ouvrez le popup → cliquez sur le bouton **⚙** (en haut à droite) → saisissez votre clé de licence.
 
 > L'activation de la licence est **optionnelle**. Le niveau gratuit fonctionne entièrement sans elle.
@@ -69,7 +69,7 @@ Toutes les fonctionnalités de minuteur sont gratuites à vie. Les **Couleurs pe
 |---|---|
 | Chrome Web Store | [Installer dans Chrome](https://chromewebstore.google.com/detail/cdboleaglibdjbogeofpcaodilmbljgp) |
 | Microsoft Edge Add-ons | [Installer dans Edge](https://microsoftedge.microsoft.com/addons/detail/fbpjlhjnggfpfeakomkllgljbpegajbd) |
-| Modules complémentaires Firefox (AMO) | 🔜 En cours d’examen — le lien sera ajouté après publication |
+| Modules complémentaires Firefox (AMO) | [Installer pour Firefox](https://addons.mozilla.org/firefox/addon/pixel-retro-timer/) |
 
 > Installez uniquement depuis les boutiques officielles ci-dessus — évitez les sites de téléchargement tiers.
 
@@ -126,3 +126,13 @@ Cette extension fournit un overlay de minuteur flottant local pour la commodité
 ## Licence
 
 Copyright © 2026 RetroTime. Tous droits réservés.
+
+---
+
+## Liens
+
+- **Site officiel:** https://annmax1983.com/
+- **Cette extension:** https://annmax1983.com/extensions/retrotime
+- **Confidentialité:** https://annmax1983.com/privacy
+- **Contact:** support@annmax1983.com
+- **☕ Soutenir le projet (Ko-fi):** https://ko-fi.com/annmax?ref=retrotime

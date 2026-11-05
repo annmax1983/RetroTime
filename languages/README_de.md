@@ -35,7 +35,7 @@ Die meisten Timer-Erweiterungen öffnen sich in einem separaten Tab oder Popup. 
 
 Alle Timer-Funktionen sind für immer kostenlos. **Eigene Farben** (Schriftfarbe + Hintergrundfarbe) erfordern eine VKT Premium-Lizenz — ein einmaliger Kauf, der die Entwicklung unterstützt.
 
-- 🛒 Lizenz erhalten: `https://www.annmax1983.com/checkout.html?plugin=retrotime`
+- 🛒 Lizenz erhalten: `https://annmax1983.com/checkout?plugin=retrotime`
 - ⚙ Aktivieren: Popup öffnen → **⚙**-Button klicken (oben rechts) → Lizenzschlüssel eingeben.
 
 > Die Lizenzaktivierung ist **optional**. Die kostenlose Stufe funktioniert vollständig ohne sie.
@@ -69,7 +69,7 @@ Alle Timer-Funktionen sind für immer kostenlos. **Eigene Farben** (Schriftfarbe
 |---|---|
 | Chrome Web Store | [In Chrome installieren](https://chromewebstore.google.com/detail/cdboleaglibdjbogeofpcaodilmbljgp) |
 | Microsoft Edge Add-ons | [In Edge installieren](https://microsoftedge.microsoft.com/addons/detail/fbpjlhjnggfpfeakomkllgljbpegajbd) |
-| Firefox-Add-ons (AMO) | 🔜 In Prüfung – Link folgt nach der Freigabe |
+| Firefox-Add-ons (AMO) | [Für Firefox installieren](https://addons.mozilla.org/firefox/addon/pixel-retro-timer/) |
 
 > Installieren Sie nur über die offiziellen Stores oben – meiden Sie Download-Seiten Dritter.
 
@@ -126,3 +126,13 @@ Diese Erweiterung bietet ein lokales schwebendes Timer-Overlay zur Bequemlichkei
 ## Lizenz
 
 Copyright © 2026 RetroTime. Alle Rechte vorbehalten.
+
+---
+
+## Links
+
+- **Offizielle Website:** https://annmax1983.com/
+- **Diese Erweiterung:** https://annmax1983.com/extensions/retrotime
+- **Datenschutz:** https://annmax1983.com/privacy
+- **Kontakt:** support@annmax1983.com
+- **☕ Projekt unterstützen (Ko-fi):** https://ko-fi.com/annmax?ref=retrotime

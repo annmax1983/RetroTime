@@ -35,7 +35,7 @@ Most timer extensions open in a separate tab or popup. RetroTime floats directly
 
 All timer features are free forever. **Custom Colors** (font color + background color) require a VKT Premium license — a one-time purchase that supports development.
 
-- 🛒 Get a license: `https://www.annmax1983.com/checkout.html?plugin=retrotime`
+- 🛒 Get a license: `https://annmax1983.com/checkout?plugin=retrotime`
 - ⚙ Activate it: open the popup → click the **⚙** button (top right) → enter your license key.
 
 > License activation is **optional**. The free tier works fully without it.
@@ -69,7 +69,7 @@ All timer features are free forever. **Custom Colors** (font color + background 
 |---|---|
 | Chrome Web Store | [Install for Chrome](https://chromewebstore.google.com/detail/cdboleaglibdjbogeofpcaodilmbljgp) |
 | Microsoft Edge Add-ons | [Install for Edge](https://microsoftedge.microsoft.com/addons/detail/fbpjlhjnggfpfeakomkllgljbpegajbd) |
-| Firefox Add-ons (AMO) | 🔜 Under review — link will be added once the listing is live |
+| Firefox Add-ons (AMO) | [Install for Firefox](https://addons.mozilla.org/firefox/addon/pixel-retro-timer/) |
 
 > Install only from the official stores above — avoid third-party download sites.
 
@@ -126,3 +126,13 @@ This extension provides a local floating timer overlay for user convenience. It 
 ## License
 
 Copyright © 2026 RetroTime. All rights reserved.
+
+---
+
+## Links
+
+- **Official website:** https://annmax1983.com/
+- **This extension:** https://annmax1983.com/extensions/retrotime
+- **Privacy policy:** https://annmax1983.com/privacy
+- **Contact:** support@annmax1983.com
+- **☕ Support this project (Ko-fi):** https://ko-fi.com/annmax?ref=retrotime

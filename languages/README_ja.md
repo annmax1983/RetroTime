@@ -35,7 +35,7 @@
 
 すべてのタイマー機能は永久無料です。**カスタムカラー**（フォント色＋背景色）にはVKT Premiumライセンスが必要です — 開発を支援する買い切りライセンスです。
 
-- 🛒 ライセンス取得：`https://www.annmax1983.com/checkout.html?plugin=retrotime`
+- 🛒 ライセンス取得：`https://annmax1983.com/checkout?plugin=retrotime`
 - ⚙ 有効化：ポップアップを開き、右上の**⚙**ボタンをクリックしてライセンスキーを入力します。
 
 > ライセンス有効化は**オプション**です。無料版はそれなしで完全に動作します。
@@ -69,7 +69,7 @@
 |---|---|
 | Chrome ウェブストア | [Chrome に追加](https://chromewebstore.google.com/detail/cdboleaglibdjbogeofpcaodilmbljgp) |
 | Microsoft Edge アドオン | [Edge に追加](https://microsoftedge.microsoft.com/addons/detail/fbpjlhjnggfpfeakomkllgljbpegajbd) |
-| Firefox アドオン（AMO） | 🔜 審査中 — 公開後にリンクを追加します |
+| Firefox アドオン（AMO） | [Firefox 版をインストール](https://addons.mozilla.org/firefox/addon/pixel-retro-timer/) |
 
 > 上記の公式ストアからのみインストールしてください。第三者サイトの利用は避けてください。
 
@@ -126,3 +126,13 @@
 ## ライセンス
 
 Copyright © 2026 RetroTime. All rights reserved.
+
+---
+
+## リンク
+
+- **公式サイト:** https://annmax1983.com/
+- **この拡張機能:** https://annmax1983.com/extensions/retrotime
+- **プライバシーポリシー:** https://annmax1983.com/privacy
+- **お問い合わせ:** support@annmax1983.com
+- **☕ 開発を支援（Ko-fi）:** https://ko-fi.com/annmax?ref=retrotime
