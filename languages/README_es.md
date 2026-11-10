@@ -20,20 +20,20 @@ La mayoría de extensiones de temporizador se abren en una pestaña o popup apar
 | 📊 **Historial** | Guarda automáticamente los temporizadores completados para hacer seguimiento de sesiones de concentración |
 | 🎚️ **Control de opacidad** | Control deslizante de transparencia del 20% al 100% |
 | 🔒 **Bloqueo y minimizar** | Bloquea la posición para evitar arrastres, minimiza a la barra de título |
-| 🎨 **Colores personalizados** | Cambia el color de fuente y el color de fondo (Premium) |
+| 🎨 **Colores personalizados** | Cambia el color de fuente y el color de fondo (Pro) |
 | 🌍 **Multi-idioma** | EN, ZH, JA, DE, ES, FR |
 | 🛡️ **Privacidad ante todo** | Sin recopilación de datos; solo `storage` + `alarms` + `notifications` |
 
 ---
 
-## Gratis vs Premium
+## Gratis vs Pro
 
 | Plan | Funcionalidades |
 |------|----------|
 | **Gratis** | Cronómetro, cuenta atrás, Pomodoro, todos los sonidos, control de opacidad, arrastrar y ajustar, bloqueo y minimizar, historial |
-| **⭐ Premium** | Color de fuente personalizado, color de fondo personalizado |
+| **⭐ Pro** | Color de fuente personalizado, color de fondo personalizado |
 
-Todas las funcionalidades del temporizador son gratuitas para siempre. Los **Colores personalizados** (color de fuente + color de fondo) requieren una licencia VKT Premium — una compra única que apoya el desarrollo.
+Todas las funcionalidades del temporizador son gratuitas para siempre. Los **Colores personalizados** (color de fuente + color de fondo) requieren una licencia VKT Pro — una compra única que apoya el desarrollo.
 
 - 🛒 Obtener licencia: `https://annmax1983.com/checkout?plugin=retrotime`
 - ⚙ Activarla: abre el popup → haz clic en el botón **⚙** (arriba a la derecha) → introduce tu clave de licencia.

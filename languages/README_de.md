@@ -20,20 +20,20 @@ Die meisten Timer-Erweiterungen öffnen sich in einem separaten Tab oder Popup. 
 | 📊 **Verlaufsverfolgung** | Speichert abgeschlossene Timer automatisch, um Fokussitzungen nachzuverfolgen |
 | 🎚️ **Transparenz-Regler** | 20%-100% Schieberegler |
 | 🔒 **Sperren & Minimieren** | Position sperren, um Ziehen zu verhindern, auf Titelleiste minimieren |
-| 🎨 **Eigene Farben** | Schriftfarbe und Hintergrundfarbe ändern (Premium) |
+| 🎨 **Eigene Farben** | Schriftfarbe und Hintergrundfarbe ändern (Pro) |
 | 🌍 **Mehrsprachig** | EN, ZH, JA, DE, ES, FR |
 | 🛡️ **Datenschutz zuerst** | Keine Datensammlung; nur `storage` + `alarms` + `notifications` |
 
 ---
 
-## Kostenlos vs. Premium
+## Kostenlos vs. Pro
 
 | Plan | Funktionen |
 |------|-----------|
 | **Kostenlos** | Stoppuhr, Countdown, Pomodoro, alle Töne, Transparenz-Regler, Ziehen & Einrasten, Sperren & Minimieren, Verlauf |
-| **⭐ Premium** | Eigene Schriftfarbe, eigene Hintergrundfarbe |
+| **⭐ Pro** | Eigene Schriftfarbe, eigene Hintergrundfarbe |
 
-Alle Timer-Funktionen sind für immer kostenlos. **Eigene Farben** (Schriftfarbe + Hintergrundfarbe) erfordern eine VKT Premium-Lizenz — ein einmaliger Kauf, der die Entwicklung unterstützt.
+Alle Timer-Funktionen sind für immer kostenlos. **Eigene Farben** (Schriftfarbe + Hintergrundfarbe) erfordern eine VKT Pro-Lizenz — ein einmaliger Kauf, der die Entwicklung unterstützt.
 
 - 🛒 Lizenz erhalten: `https://annmax1983.com/checkout?plugin=retrotime`
 - ⚙ Aktivieren: Popup öffnen → **⚙**-Button klicken (oben rechts) → Lizenzschlüssel eingeben.

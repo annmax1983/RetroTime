@@ -33,14 +33,14 @@ See the [main README](../README.md) for full documentation.
 
 > Install only from the official stores above — avoid third-party download sites.
 
-## Free vs Premium
+## Free vs Pro
 
 | Plan | Features |
 |------|----------|
 | **Free** | Stopwatch, Countdown, Pomodoro, all sounds, opacity, drag, lock, history |
-| **⭐ Premium** | Custom font color, custom background color |
+| **⭐ Pro** | Custom font color, custom background color |
 
-All timer features are free forever. Custom Colors require a VKT Premium license.
+All timer features are free forever. Custom Colors require a VKT Pro license.
 
 > License activation is **optional**. The free tier works fully without it.
 

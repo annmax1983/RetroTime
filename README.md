@@ -20,20 +20,20 @@ Most timer extensions open in a separate tab or popup. RetroTime floats directly
 | 📊 **History Tracking** | Auto-saves completed timers to track focus sessions |
 | 🎚️ **Opacity Control** | 20%-100% transparency slider |
 | 🔒 **Lock & Minimize** | Lock position to prevent drag, minimize to title bar |
-| 🎨 **Custom Colors** | Change font color and background color (Premium) |
+| 🎨 **Custom Colors** | Change font color and background color (Pro) |
 | 🌍 **Multi-Language** | EN, ZH, JA, DE, ES, FR |
 | 🛡️ **Privacy First** | No data collection; `storage` + `alarms` + `notifications` only |
 
 ---
 
-## Free vs Premium
+## Free vs Pro
 
 | Plan | Features |
 |------|----------|
 | **Free** | Stopwatch, countdown, Pomodoro, all sounds, opacity control, drag & snap, lock & minimize, history |
-| **⭐ Premium** | Custom font color, custom background color |
+| **⭐ Pro** | Custom font color, custom background color |
 
-All timer features are free forever. **Custom Colors** (font color + background color) require a VKT Premium license — a one-time purchase that supports development.
+All timer features are free forever. **Custom Colors** (font color + background color) require a VKT Pro license — a one-time purchase that supports development.
 
 - 🛒 Get a license: `https://annmax1983.com/checkout?plugin=retrotime`
 - ⚙ Activate it: open the popup → click the **⚙** button (top right) → enter your license key.
@@ -59,7 +59,7 @@ All timer features are free forever. **Custom Colors** (font color + background 
 | Mozilla Firefox | ✅ Fully supported | Manifest V3, Firefox 140+ (desktop) |
 | Other Chromium-based browsers | ✅ Should work | Manifest V3 |
 
-> **Firefox note:** the floating widget, drag & snap, all three modes, sounds, badge countdown, desktop notifications, history and Premium colours work the same way. The extension asks only for `storage`, `alarms`, `notifications`, `<all_urls>` (to draw the widget on pages) and the licence host.
+> **Firefox note:** the floating widget, drag & snap, all three modes, sounds, badge countdown, desktop notifications, history and Pro colours work the same way. The extension asks only for `storage`, `alarms`, `notifications`, `<all_urls>` (to draw the widget on pages) and the licence host.
 
 ---
 

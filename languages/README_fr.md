@@ -20,20 +20,20 @@ La plupart des extensions de minuteur s'ouvrent dans un onglet ou un popup sépa
 | 📊 **Historique** | Sauvegarde automatique des minuteurs terminés pour suivre vos sessions de concentration |
 | 🎚️ **Contrôle d'opacité** | Curseur de transparence de 20 % à 100 % |
 | 🔒 **Verrouiller et minimiser** | Verrouillez la position pour éviter les déplacements, minimisez en barre de titre |
-| 🎨 **Couleurs personnalisables** | Changez la couleur du texte et du fond (Premium) |
+| 🎨 **Couleurs personnalisables** | Changez la couleur du texte et du fond (Pro) |
 | 🌍 **Multilingue** | EN, ZH, JA, DE, ES, FR |
 | 🛡️ **Confidentialité avant tout** | Aucune collecte de données ; `storage` + `alarms` + `notifications` uniquement |
 
 ---
 
-## Gratuit vs Premium
+## Gratuit vs Pro
 
 | Plan | Fonctionnalités |
 |------|----------|
 | **Gratuit** | Chronomètre, compte à rebours, Pomodoro, tous les sons, contrôle d'opacité, glisser et coller, verrouiller et minimiser, historique |
-| **⭐ Premium** | Couleur de texte personnalisée, couleur de fond personnalisée |
+| **⭐ Pro** | Couleur de texte personnalisée, couleur de fond personnalisée |
 
-Toutes les fonctionnalités de minuteur sont gratuites à vie. Les **Couleurs personnalisables** (couleur du texte + couleur de fond) nécessitent une licence VKT Premium — un achat unique qui soutient le développement.
+Toutes les fonctionnalités de minuteur sont gratuites à vie. Les **Couleurs personnalisables** (couleur du texte + couleur de fond) nécessitent une licence VKT Pro — un achat unique qui soutient le développement.
 
 - 🛒 Obtenir une licence : `https://annmax1983.com/checkout?plugin=retrotime`
 - ⚙ L'activer : ouvrez le popup → cliquez sur le bouton **⚙** (en haut à droite) → saisissez votre clé de licence.
