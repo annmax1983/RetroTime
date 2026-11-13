@@ -2,9 +2,9 @@
 
 [English](../README.md) | [中文](README_zh.md) | Español | [Deutsch](README_de.md) | [日本語](README_ja.md) | [Français](README_fr.md)
 
-Un widget minimalista de temporizador flotante con efecto glassmorphism y modos de cronómetro, cuenta atrás y Pomodoro. Completamente sin conexión, cero recopilación de datos.
+Un widget minimalista de temporizador flotante con efecto glassmorphism y modos de cronómetro, cuenta atrás y Pomodoro. Completamente sin conexión y sin rastreo; la única solicitud de red es la activación opcional de la licencia Pro.
 
-> Chrome / Edge / Firefox · Manifest V3 · Sin rastreo · Solo sin conexión · Colores personalizables
+> Chrome / Edge / Firefox · Manifest V3 · Sin rastreo · Sin conexión por defecto · Colores personalizables
 
 ---
 
@@ -22,7 +22,7 @@ La mayoría de extensiones de temporizador se abren en una pestaña o popup apar
 | 🔒 **Bloqueo y minimizar** | Bloquea la posición para evitar arrastres, minimiza a la barra de título |
 | 🎨 **Colores personalizados** | Cambia el color de fuente y el color de fondo (Pro) |
 | 🌍 **Multi-idioma** | EN, ZH, JA, DE, ES, FR |
-| 🛡️ **Privacidad ante todo** | Sin recopilación de datos; solo `storage` + `alarms` + `notifications` |
+| 🛡️ **Privacidad ante todo** | Sin rastreo ni analíticas; las funciones gratuitas no hacen peticiones de red |
 
 ---
 
@@ -104,7 +104,7 @@ Todas las funcionalidades del temporizador son gratuitas para siempre. Los **Col
 - **storage** — Guarda configuración, posición e historial localmente
 - **alarms** — Dispara la finalización del temporizador puntualmente, aunque no haya ninguna pestaña visible
 - **notifications** — Muestra la notificación de escritorio cuando un temporizador finaliza
-- **Licencia (opcional)** — Solo si activas una licencia de pago: la clave de licencia y un identificador de instalación aleatorio + metadatos del navegador se envían a `api.annmax1983.com` para activar/validar la licencia. Esto nunca incluye tus datos de temporizador ni historial de uso.
+- **Licencia (opcional)** — Solo si activas una licencia de pago: la clave de licencia y un identificador de instalación aleatorio se envían a `api.annmax1983.com` para activar/validar la licencia. Esto nunca incluye tus datos de temporizador ni historial de uso.
 - Sin solicitudes de red para funcionalidades gratuitas — todo el procesamiento ocurre localmente
 - Efectos de sonido generados en el navegador mediante Web Audio API
 - [Política de privacidad](privacy-policy.html)

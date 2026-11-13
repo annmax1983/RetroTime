@@ -2,9 +2,9 @@
 
 [English](../README.md) | [中文](README_zh.md) | [Español](README_es.md) | Deutsch | [日本語](README_ja.md) | [Français](README_fr.md)
 
-Ein minimalistisches Glassmorphism-Timer-Widget mit Stoppuhr, Countdown und Pomodoro-Modus. Vollständig offline, null Datensammlung.
+Ein minimalistisches Glassmorphism-Timer-Widget mit Stoppuhr, Countdown und Pomodoro-Modus. Vollständig offline, kein Tracking – die einzige Netzwerkanfrage ist die optionale Pro-Lizenzaktivierung.
 
-> Chrome / Edge / Firefox · Manifest V3 · Kein Tracking · Nur offline · Anpassbare Farben
+> Chrome / Edge / Firefox · Manifest V3 · Kein Tracking · Offline-first · Anpassbare Farben
 
 ---
 
@@ -22,7 +22,7 @@ Die meisten Timer-Erweiterungen öffnen sich in einem separaten Tab oder Popup. 
 | 🔒 **Sperren & Minimieren** | Position sperren, um Ziehen zu verhindern, auf Titelleiste minimieren |
 | 🎨 **Eigene Farben** | Schriftfarbe und Hintergrundfarbe ändern (Pro) |
 | 🌍 **Mehrsprachig** | EN, ZH, JA, DE, ES, FR |
-| 🛡️ **Datenschutz zuerst** | Keine Datensammlung; nur `storage` + `alarms` + `notifications` |
+| 🛡️ **Datenschutz zuerst** | Kein Tracking, keine Analyse; kostenlose Funktionen ohne Netzwerkanfrage |
 
 ---
 
@@ -104,7 +104,7 @@ Alle Timer-Funktionen sind für immer kostenlos. **Eigene Farben** (Schriftfarbe
 - **storage** — Speichert Einstellungen, Position und Verlauf lokal
 - **alarms** — Löst den Timer-Abschluss pünktlich aus, auch wenn kein Tab sichtbar ist
 - **notifications** — Zeigt die Desktop-Benachrichtigung bei Timer-Ende
-- **Lizenz (optional)** — Nur bei Aktivierung einer kostenpflichtigen Lizenz: Lizenzschlüssel und eine zufällige Installationskennung + Browser-Metadaten werden an `api.annmax1983.com` gesendet, um die Lizenz zu aktivieren/validieren. Dies enthält nie deine Timer-Daten oder Nutzungsverlauf.
+- **Lizenz (optional)** — Nur bei Aktivierung einer kostenpflichtigen Lizenz: Lizenzschlüssel und eine zufällige Installationskennung werden an `api.annmax1983.com` gesendet, um die Lizenz zu aktivieren/validieren. Dies enthält nie deine Timer-Daten oder Nutzungsverlauf.
 - Keine Netzwerk-Anfragen für kostenlose Funktionen — alles passiert lokal
 - Sound-Effekte werden im Browser via Web Audio API generiert
 - [Datenschutzerklärung](privacy-policy.html)

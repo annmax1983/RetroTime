@@ -2,9 +2,9 @@
 
 [English](../README.md) | [中文](README_zh.md) | [Español](README_es.md) | [Deutsch](README_de.md) | [日本語](README_ja.md) | Français
 
-Un widget minuteur flottant minimalist en glassmorphism avec modes chronomètre, compte à rebours et Pomodoro. Entièrement hors ligne, zéro collecte de données.
+Un widget minuteur flottant minimalist en glassmorphism avec modes chronomètre, compte à rebours et Pomodoro. Entièrement hors ligne et sans suivi ; la seule requête réseau est l'activation facultative de la licence Pro.
 
-> Chrome / Edge / Firefox · Manifest V3 · Aucun suivi · Hors ligne uniquement · Couleurs personnalisables
+> Chrome / Edge / Firefox · Manifest V3 · Aucun suivi · Hors ligne par défaut · Couleurs personnalisables
 
 ---
 
@@ -22,7 +22,7 @@ La plupart des extensions de minuteur s'ouvrent dans un onglet ou un popup sépa
 | 🔒 **Verrouiller et minimiser** | Verrouillez la position pour éviter les déplacements, minimisez en barre de titre |
 | 🎨 **Couleurs personnalisables** | Changez la couleur du texte et du fond (Pro) |
 | 🌍 **Multilingue** | EN, ZH, JA, DE, ES, FR |
-| 🛡️ **Confidentialité avant tout** | Aucune collecte de données ; `storage` + `alarms` + `notifications` uniquement |
+| 🛡️ **Confidentialité avant tout** | Aucun suivi ni analyse ; les fonctions gratuites ne font aucune requête réseau |
 
 ---
 
@@ -104,7 +104,7 @@ Toutes les fonctionnalités de minuteur sont gratuites à vie. Les **Couleurs pe
 - **storage** — Sauvegarde les paramètres, la position et l'historique en local
 - **alarms** — Déclenche la fin du minuteur à l'heure exacte, même quand aucun onglet n'est visible
 - **notifications** — Affiche la notification de bureau quand un minuteur se termine
-- **Licence (optionnelle)** — Uniquement si vous activez une licence payante : la clé de licence et un identifiant d'installation aléatoire + des métadonnées du navigateur sont envoyées à `api.annmax1983.com` pour activer/valider la licence. Cela n'inclut jamais vos données de minuteur ni votre historique d'utilisation.
+- **Licence (optionnelle)** — Uniquement si vous activez une licence payante : la clé de licence et un identifiant d'installation aléatoire sont envoyées à `api.annmax1983.com` pour activer/valider la licence. Cela n'inclut jamais vos données de minuteur ni votre historique d'utilisation.
 - Pas de requêtes réseau pour les fonctionnalités gratuites — tout le traitement se fait en local
 - Les effets sonores sont générés dans le navigateur via le Web Audio API
 - [Politique de confidentialité](privacy-policy.html)

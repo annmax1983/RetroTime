@@ -2,9 +2,9 @@
 
 [English](../README.md) | [中文](README_zh.md) | [Español](README_es.md) | [Deutsch](README_de.md) | [日本語](README_ja.md) | [Français](README_fr.md)
 
-A minimalist glassmorphism floating timer widget with stopwatch, countdown, and Pomodoro modes. Fully offline, zero data collection.
+A minimalist glassmorphism floating timer widget with stopwatch, countdown, and Pomodoro modes. Fully offline, no tracking — the only network request is optional Pro license activation.
 
-> Chrome / Edge / Firefox · Manifest V3 · No tracking · Offline-only · Customizable Colors
+> Chrome / Edge / Firefox · Manifest V3 · No tracking · Offline-first · Customizable Colors
 
 ---
 

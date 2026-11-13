@@ -2,9 +2,9 @@
 
 [English](README.md) | [中文](languages/README_zh.md) | [Español](languages/README_es.md) | [Deutsch](languages/README_de.md) | [日本語](languages/README_ja.md) | [Français](languages/README_fr.md)
 
-A minimalist glassmorphism floating timer widget with stopwatch, countdown, and Pomodoro modes. Fully offline, zero data collection.
+A minimalist glassmorphism floating timer widget with stopwatch, countdown, and Pomodoro modes. Fully offline, no tracking — the only network request is optional Pro license activation.
 
-> Chrome · Edge · Firefox · Manifest V3 · No tracking · Offline-only · Customizable Colors
+> Chrome · Edge · Firefox · Manifest V3 · No tracking · Offline-first · Customizable Colors
 
 ---
 
@@ -22,7 +22,7 @@ Most timer extensions open in a separate tab or popup. RetroTime floats directly
 | 🔒 **Lock & Minimize** | Lock position to prevent drag, minimize to title bar |
 | 🎨 **Custom Colors** | Change font color and background color (Pro) |
 | 🌍 **Multi-Language** | EN, ZH, JA, DE, ES, FR |
-| 🛡️ **Privacy First** | No data collection; `storage` + `alarms` + `notifications` only |
+| 🛡️ **Privacy First** | No tracking, no analytics; free features make zero network requests |
 
 ---
 
@@ -104,7 +104,7 @@ All timer features are free forever. **Custom Colors** (font color + background 
 - **storage** — Saves settings, position, and history locally
 - **alarms** — Fires the timer completion exactly on time, even when no tab is visible
 - **notifications** — Shows the desktop notification when a timer finishes
-- **License (optional)** — Only if you activate a paid license: a random install identifier + browser metadata is sent to `api.annmax1983.com` to activate/validate the license. This never includes your timer data or usage history.
+- **License (optional)** — Only if you activate a paid license: your license key and a random install identifier are sent to `api.annmax1983.com` to activate/validate it. No browsing data, page content or device fingerprint is included.
 - No network requests for free features — all processing happens locally
 - Sound effects generated in-browser via Web Audio API
 - [Privacy Policy](privacy-policy.html)
